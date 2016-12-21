@@ -1,0 +1,107 @@
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.207 seconds.[0m
+[36m----  Could not Analyze  src/monkey/core.cljs  ----[0m
+
+  [1mNo such namespace: sablono.core, could not locate sablono/core.cljs, sablono/core.cljc, or Closure namespace "sablono.core" [0m
+
+[36m----  Analysis Error : Please see src/monkey/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.275 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.183 seconds.[0m
+[36m----  Could not Analyze  src/monkey/core.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Symbol[0m
+
+  [33m1[0m  [1m(ns monkey.core[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Symbol[0m
+  [36m2[0m  [36m    (:require [0m
+  [36m3[0m  [36m        [sablono.core :as sab][0m
+  [36m4[0m  [36m        [monkey.core :refer monkey-thumbs-up]))[0m
+
+[36m----  Analysis Error : Please see src/monkey/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.089 seconds.[0m
+[36m----  Could not Analyze  src/monkey/core.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Symbol[0m
+
+  [33m1[0m  [1m(ns monkey.core[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Symbol[0m
+  [36m2[0m  [36m    (:require [0m
+  [36m3[0m  [36m        [sablono.core :as sab][0m
+  [36m4[0m  [36m        [monkey.core :refer monkey-thumbs-up]))[0m
+
+[36m----  Analysis Error : Please see src/monkey/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[31mFailed to compile "main.js" in 0.089 seconds.[0m
+[36m----  Could not Read  src/monkey/core.cljs   line:4  column:48  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m2[0m  [36m    (:require [0m
+  [36m3[0m  [36m        [sablono.core :as sab][0m
+  [33m4[0m  [1m        [monkey.core :refer [monkey-thumbs-up]))[0m
+  [0m [0m  [33m                                               ^--- Unmatched delimiter )[0m
+  [36m5[0m  [36m[0m
+  [36m6[0m  [36m(def app-state (atom { :likes 0 }))[0m
+
+[36m----  Reader Error : Please see src/monkey/core.cljs  ----[0m
+[0mCompiling "main.js" from ["src"]...[0m
+[32mSuccessfully compiled "main.js" in 0.284 seconds.[0m
+notifying browser that file changed:  out/monkey/core.js
+Notifyng browser that CSS file changed: css/style.css
+Notifyng browser that CSS file changed: css/style.css
+Notifyng browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.262 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.27 seconds.[0m
+notifying browser that file changed:  out/monkey/core.js
+Notifyng browser that CSS file changed: resources/public/css/style.css
+Notifyng browser that CSS file changed: resources/public/css/style.css
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.239 seconds.[0m
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.3 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.247 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.272 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.216 seconds.[0m
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.244 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  out/monkey/components.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.241 seconds.[0m
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.225 seconds.[0m
+notifying browser that file changed:  out/monkey/core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.276 seconds.[0m
+notifying browser that file changed:  out/monkey/components.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.228 seconds.[0m
+notifying browser that file changed:  out/monkey/components.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.224 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  out/monkey/components.js
