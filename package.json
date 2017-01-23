@@ -32,5 +32,8 @@
     "react-dom": "^15.4.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
