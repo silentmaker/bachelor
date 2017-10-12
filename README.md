@@ -1,6 +1,9 @@
-#Monkey in the tree hole#
-a little web app i am working on
-##The basic structure##
+# BACHELOR
+
+ An easy web app structure built with React backed by Express.
+
+## Basic Structure
+
 ``` html
 ├── README.md
 ├── client // Front-end
@@ -30,20 +33,27 @@ a little web app i am working on
 │   │   ├── index.css
 │   │   └── index.js
 │   └── yarn.lock
-└── server // express back end (if needed)
+└── server // Back end (Optional)
     ├── app.js
     ├── index.js
     ├── npm-debug.log
     ├── package.json
     └── yarn.lock
 ```
-##Develop and Publish##
-``` html
-// Static nginx serving --------
-// just pure front end development@localhost:3000: cd client; yarn run start
-// 
-// Reverse proxy nginx serving ---------
-// back end development@localhost:9000: node server
-// publish: cd client; yarn run build; cd ..; node server
-// edit nginx.conf to proxy_pass http://127.0.0.1:9000
+
+## Setup and Develop
+
+``` bash
+# Static nginx serving --------
+# For front end development @localhost:3000: 
+cd client; yarn run start
+
+# Back end development @localhost:9000: 
+node server
+
+# Go production -------
+cd client; yarn run build; cd ..; node server
+
+# Reverse proxy nginx serving ---------
+# edit nginx.conf to proxy_pass http://127.0.0.1:9000
 ```
